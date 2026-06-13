@@ -1,0 +1,52 @@
+{
+  "model": "C_resnet18_features",
+  "accuracy": 0.9723,
+  "macro_f1": 0.9502,
+  "weighted_f1": 0.9725,
+  "macro_precision": 0.9514,
+  "macro_recall": 0.9504,
+  "per_class": {
+    "car": {
+      "precision": 0.979,
+      "recall": 0.985,
+      "f1": 0.982,
+      "support": 650
+    },
+    "pedestrian": {
+      "precision": 0.981,
+      "recall": 0.969,
+      "f1": 0.975,
+      "support": 483
+    },
+    "motor": {
+      "precision": 0.927,
+      "recall": 0.927,
+      "f1": 0.927,
+      "support": 55
+    },
+    "people": {
+      "precision": 0.839,
+      "recall": 0.94,
+      "f1": 0.887,
+      "support": 50
+    },
+    "bus": {
+      "precision": 1.0,
+      "recall": 0.978,
+      "f1": 0.989,
+      "support": 45
+    },
+    "van": {
+      "precision": 1.0,
+      "recall": 0.921,
+      "f1": 0.959,
+      "support": 38
+    },
+    "bicycle": {
+      "precision": 0.933,
+      "recall": 0.933,
+      "f1": 0.933,
+      "support": 15
+    }
+  }
+}

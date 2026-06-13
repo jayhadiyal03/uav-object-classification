@@ -1,0 +1,52 @@
+{
+  "model": "A_linsvm",
+  "accuracy": 0.9364,
+  "macro_f1": 0.8842,
+  "weighted_f1": 0.9359,
+  "macro_precision": 0.8856,
+  "macro_recall": 0.8871,
+  "per_class": {
+    "car": {
+      "precision": 0.962,
+      "recall": 0.962,
+      "f1": 0.962,
+      "support": 650
+    },
+    "pedestrian": {
+      "precision": 0.926,
+      "recall": 0.936,
+      "f1": 0.931,
+      "support": 483
+    },
+    "motor": {
+      "precision": 0.877,
+      "recall": 0.909,
+      "f1": 0.893,
+      "support": 55
+    },
+    "people": {
+      "precision": 0.805,
+      "recall": 0.66,
+      "f1": 0.725,
+      "support": 50
+    },
+    "bus": {
+      "precision": 0.935,
+      "recall": 0.956,
+      "f1": 0.945,
+      "support": 45
+    },
+    "van": {
+      "precision": 0.972,
+      "recall": 0.921,
+      "f1": 0.946,
+      "support": 38
+    },
+    "bicycle": {
+      "precision": 0.722,
+      "recall": 0.867,
+      "f1": 0.788,
+      "support": 15
+    }
+  }
+}

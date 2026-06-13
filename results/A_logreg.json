@@ -1,0 +1,52 @@
+{
+  "model": "A_logreg",
+  "accuracy": 0.9446,
+  "macro_f1": 0.9066,
+  "weighted_f1": 0.9446,
+  "macro_precision": 0.9043,
+  "macro_recall": 0.9093,
+  "per_class": {
+    "car": {
+      "precision": 0.969,
+      "recall": 0.966,
+      "f1": 0.968,
+      "support": 650
+    },
+    "pedestrian": {
+      "precision": 0.938,
+      "recall": 0.942,
+      "f1": 0.94,
+      "support": 483
+    },
+    "motor": {
+      "precision": 0.86,
+      "recall": 0.891,
+      "f1": 0.875,
+      "support": 55
+    },
+    "people": {
+      "precision": 0.792,
+      "recall": 0.76,
+      "f1": 0.776,
+      "support": 50
+    },
+    "bus": {
+      "precision": 0.978,
+      "recall": 0.978,
+      "f1": 0.978,
+      "support": 45
+    },
+    "van": {
+      "precision": 0.919,
+      "recall": 0.895,
+      "f1": 0.907,
+      "support": 38
+    },
+    "bicycle": {
+      "precision": 0.875,
+      "recall": 0.933,
+      "f1": 0.903,
+      "support": 15
+    }
+  }
+}
